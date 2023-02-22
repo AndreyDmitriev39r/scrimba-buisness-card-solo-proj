@@ -6,6 +6,11 @@
 
 :root {
   --body-bg: #23252C;
+  --main-bg: #1A1B21;
+  --footer-bg: #161619;
+  --light-text-1: #FFF;
+  --light-text-2: #F5F5F5;
+  --colored-text-1: #F3BF99;
 }
 
 body {
@@ -13,20 +18,60 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Inter, sans-serif;
 }
 
-.main-container {
-  /* bg colors differet for footer and main */
-  background-color: #1A1B21;
-  /* border for testing only */
-  /* border: 1px solid green; */
+.main-container {  
+  background-color: var(--main-bg);  
   margin: 44px 117px;
   min-width: 317px;
   max-width: 600px;
   border-radius: 10px;
 }
 
+/* Image */
+
 .avatar {  
   border-radius: 10px 10px 0 0;
   width: 100%;
+}
+
+/* Main */
+
+main {
+  background-color: var(--main-bg);
+}
+
+.headings-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 21px;
+  gap: 6px;
+}
+
+/* Main > Headings */
+
+.main-heading {
+  color: var(--light-text-1);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sub-heading {
+  color: var(--colored-text-1);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.website {
+  color: var(--light-text-2);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--footer-bg);
 }
