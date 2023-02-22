@@ -1,6 +1,15 @@
+import Image from "./components/Image";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+
 function App() {
   return (
-    <h1>Test</h1>
+    <div className="main-container">
+     <Image />
+     <Main />
+     <Footer />
+    </div>
   );
 }
 

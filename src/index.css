@@ -1,1 +1,25 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+:root {
+  --body-bg: #23252C;
+}
+
+body {
+  background-color: var(--body-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  /* bg colors differet for footer and main */
+  background-color: #1A1B21;
+  /* border for testing only */
+  border: 1px solid green;
+  margin: 44px 117px;
+  min-width: 317px;
+}
