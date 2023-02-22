@@ -1,6 +1,9 @@
+import avatar from '../images/brian-mcgowan-P1-6ioOcGNU-unsplash.jpg'
+
+// src\images\brian-mcgowan-P1-6ioOcGNU-unsplash.jpg
 function Image() {
   return (
-    <h1>This is Image</h1>
+    <img className='avatar' src={avatar} alt='capybara avatar'/>
   )
 }
 
