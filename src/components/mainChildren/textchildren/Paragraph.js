@@ -1,6 +1,9 @@
-function Paragraph() {
+function Paragraph({paragraghHeader, paragraghText}) {
   return (
-    <h1>This is Paragraph</h1>
+    <div>
+    <h3 className="paragraph-header">{paragraghHeader}</h3>
+    <p className="paragraph-text">{paragraghText}</p>
+    </div>
   )
 }
 

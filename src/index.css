@@ -10,6 +10,7 @@
   --footer-bg: #161619;
   --light-text-1: #FFF;
   --light-text-2: #F5F5F5;
+  --light-text-3: #DCDCDC;
   --colored-text-1: #F3BF99;
 }
 
@@ -83,6 +84,35 @@ main {
   width: 115px;
   height: 34px;
   border-radius: 6px;
+}
+
+/* Main > Text */
+
+.texts-section {
+  margin: 33px 35px 34px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Main > Text > Paragraph */
+
+.paragraph-header, .paragraph-text {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.paragraph-header {  
+  font-size: 16px;  
+  font-weight: 700;
+  color: var(--light-text-2);
+}
+
+.paragraph-text {  
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--light-text-3);
 }
 
 /* Footer */
