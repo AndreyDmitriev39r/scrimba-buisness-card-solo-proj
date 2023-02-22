@@ -24,8 +24,7 @@ body {
 .main-container {  
   background-color: var(--main-bg);  
   margin: 44px 117px;
-  min-width: 317px;
-  max-width: 600px;
+  width: 317px;  
   border-radius: 10px;
 }
 
@@ -42,6 +41,8 @@ main {
   background-color: var(--main-bg);
 }
 
+/* Main > Headings */
+
 .headings-section {
   display: flex;
   flex-direction: column;
@@ -49,8 +50,6 @@ main {
   margin-top: 21px;
   gap: 6px;
 }
-
-/* Main > Headings */
 
 .main-heading {
   color: var(--light-text-1);
@@ -70,8 +69,25 @@ main {
   font-weight: 400;
 }
 
+/* Main > Buttons */
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 35px 0 35px;
+}
+
+/* Main > Buttons > Button */
+
+.contacts-button {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
 /* Footer */
 
 footer {
   background-color: var(--footer-bg);
+  border-radius: 0 0 10px 10px;
 }

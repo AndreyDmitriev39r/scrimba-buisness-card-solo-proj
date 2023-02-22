@@ -1,6 +1,11 @@
+import Button from "./buttonschildren/Button";
+
 function Buttons() {
   return (
-    <h1>This is Buttons</h1>
+    <section className='buttons-section'>
+    <Button textContent={'email'}/>
+    <Button textContent={'linkedin'}/>
+    </section>
   )
 }
 
