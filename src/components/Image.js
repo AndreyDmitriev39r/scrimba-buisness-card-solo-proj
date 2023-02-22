@@ -1,4 +1,4 @@
-import avatar from '../images/hero-image.jpg'
+import avatar from '../images/heroimage.jpg'
 
 function Image() {
   return (
