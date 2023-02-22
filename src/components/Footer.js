@@ -1,12 +1,23 @@
 import SocialMediaIcon from "./footerChildren/SocialMediaIcon";
 
 function Footer() {
+
+  const socialIconsClasses = [
+    'fa-brands fa-twitter',
+    'fab fa-facebook-f',
+    'fa-brands fa-instagram',
+    'fab fa-github'
+  ];
+
+  const icons = socialIconsClasses.map((item)=>
+    <SocialMediaIcon
+      key={item}
+      iconClass={item}
+  />)
+
   return (
     <footer>
-    <SocialMediaIcon />
-    <SocialMediaIcon />
-    <SocialMediaIcon />
-    <SocialMediaIcon />
+      {icons}
     </footer>
   )
 }

@@ -1,6 +1,6 @@
-function SocialMediaIcon() {
+function SocialMediaIcon({iconClass}) {
   return (
-    <h1>This is SocialMediaIcon</h1>
+    <i className={iconClass}></i>
   )
 }
 
